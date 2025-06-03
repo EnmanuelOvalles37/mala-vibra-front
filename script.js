@@ -80,8 +80,8 @@ function renderPlayers(players) {
                             <div class="player-stats">
                                 <div class="stat-item1"><div class="stat-label">Rango</div><div class="stat-value">${player.tier} ${player.rank}</div></div>
                                 <div class="stat-item2"><div class="stat-label">LP</div><div class="stat-value">${mostrarValor(player.leaguePoints)}</div></div>
-<div class="stat-item3"><div class="stat-label3">Wins</div><div class="stat-value">${mostrarValor(player.wins)}</div></div>
-<div class="stat-item4"><div class="stat-label4">Losses</div><div class="stat-value">${mostrarValor(player.losses)}</div></div>
+                                <div class="stat-item3"><div class="stat-label3">Wins</div><div class="stat-value">${mostrarValor(player.wins)}</div></div>
+                                <div class="stat-item4"><div class="stat-label4">Losses</div><div class="stat-value">${mostrarValor(player.losses)}</div></div>
                             </div>
                         </div>
                     `).join('')}
